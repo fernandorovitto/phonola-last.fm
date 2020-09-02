@@ -51,7 +51,7 @@ npm run lint
 
 ## Possible next steps
 
-* Last.fm user login implmentation
+* Last.fm user login implementation
 * Improve design
 * Complete coverage of unit testing
 * Components refactor & reutilization
