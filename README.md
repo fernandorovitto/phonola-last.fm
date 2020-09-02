@@ -22,7 +22,7 @@ Extras:
 
 This project is intended as a demo for testing and exploration of new libraries and possibilities.
 
-##Setup
+## Setup
 Needs npm: https://www.npmjs.com/get-npm
 
 ### Create your own account from last.fm
@@ -49,13 +49,13 @@ npm run test:cov
 ### To run linter
 npm run lint
 
-##Possible next steps
+## Possible next steps
 
-*Last.fm user login implmentation
-*Improve design
-*Complete coverage of unit testing
-*Components refactor & reutilization
-*Improve styled-components styles management
-*Use global theme for styles
-*Create interfaces for the incomming API responses
-*Add more information to main views 
+* Last.fm user login implmentation
+* Improve design
+* Complete coverage of unit testing
+* Components refactor & reutilization
+* Improve styled-components styles management
+* Use global theme for styles
+* Create interfaces for the incomming API responses
+* Add more information to main views 
