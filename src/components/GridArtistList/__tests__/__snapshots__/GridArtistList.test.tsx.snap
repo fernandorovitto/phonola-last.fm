@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for GridArtistList Component Should render the component with artists 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.c2 {
+  height: 80px;
+}
+
+.c1 {
+  border: 1px rgba(255,255,255,0.5) solid;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+<div
+  className="c0"
+>
+  <ul
+    className="MuiGridList-root "
+    style={
+      Object {
+        "margin": -0.5,
+      }
+    }
+  >
+    <li
+      className="MuiGridListTile-root"
+      onClick={[Function]}
+      style={
+        Object {
+          "height": 181,
+          "padding": 0.5,
+          "width": "16.666666666666668%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <img
+          alt="Megadeth"
+          className="c1"
+          src="test-file-stub"
+        />
+        <div
+          className="MuiGridListTileBar-root c2 MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+        >
+          <div
+            className="MuiGridListTileBar-titleWrap"
+          >
+            <div
+              className="MuiGridListTileBar-title"
+            >
+              Megadeth
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              <span>
+                Listeners:
+                 
+                10,000
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li
+      className="MuiGridListTile-root"
+      onClick={[Function]}
+      style={
+        Object {
+          "height": 181,
+          "padding": 0.5,
+          "width": "16.666666666666668%",
+        }
+      }
+    >
+      <div
+        className="MuiGridListTile-tile"
+      >
+        <img
+          alt="Pantera"
+          className="c1"
+          src="test-file-stub"
+        />
+        <div
+          className="MuiGridListTileBar-root c2 MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"
+        >
+          <div
+            className="MuiGridListTileBar-titleWrap"
+          >
+            <div
+              className="MuiGridListTileBar-title"
+            >
+              Pantera
+            </div>
+            <div
+              className="MuiGridListTileBar-subtitle"
+            >
+              <span>
+                Listeners:
+                 
+                10,000
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Test for GridArtistList Component Should render the component with no artists 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+<div
+  className="c0"
+>
+  <ul
+    className="MuiGridList-root "
+    style={
+      Object {
+        "margin": -0.5,
+      }
+    }
+  />
+</div>
+`;

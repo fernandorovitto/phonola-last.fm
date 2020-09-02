@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Biography Component Should render the component 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c1 {
+  font-size: 24px;
+  height: 30px;
+}
+
+.c2 {
+  background-color: white;
+  height: 30px;
+  margin-right: 10px;
+}
+
+<div
+    className="c0"
+  >
+    <p
+      className="c1"
+    >
+      Biography
+    </p>
+    <div
+      aria-label="text alignment"
+      className="MuiToggleButtonGroup-root c2"
+      role="group"
+    >
+      <button
+        aria-label="Brief"
+        aria-pressed={true}
+        className="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal Mui-selected MuiToggleButton-sizeSmall"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+        value="brief"
+      >
+        <span
+          className="MuiToggleButton-label"
+        >
+          Brief
+        </span>
+      </button>
+      <button
+        aria-label="Full"
+        aria-pressed={false}
+        className="MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal MuiToggleButton-sizeSmall"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+        value="full"
+      >
+        <span
+          className="MuiToggleButton-label"
+        >
+          Full
+        </span>
+      </button>
+    </div>
+  </div>,
+  .c1 {
+  font-size: 16px;
+  height: 100%;
+  white-space: pre-line;
+}
+
+.c0 {
+  font-size: 16px;
+  padding: 10px;
+  white-space: pre-line;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Short text",
+        }
+      }
+    />
+  </div>,
+]
+`;

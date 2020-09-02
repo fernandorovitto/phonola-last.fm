@@ -1,0 +1,19 @@
+{
+  "manifest": {
+    "js": "/bundle.js"
+  },
+  "app": {
+    "js": "/app.bundle.js"
+  },
+  "vendors": {
+    "js": "/vendors.bundle.js"
+  },
+  "": {
+    "png": [
+      "/assets/images/528c918bc8050e2bed3830b7e7e018c8-defaultArtistCover.png",
+      "/logo.png"
+    ],
+    "svg": "/assets/images/e831c04688d8854b9578e4097969a6bf-music.svg",
+    "html": "/index.html"
+  }
+}

@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for ArtistHeader Component Should render the component 1`] = `
+Array [
+  .c0 {
+  background-color: #161b1e;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.c1 {
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  width: 50%;
+}
+
+.c2 {
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.c3 {
+  background: linear-gradient(0.25turn,rgb(22,27,30,1),rgb(22,27,30,0));
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+<div
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <img
+        className="c2"
+        style={
+          Object {
+            "backgroundImage": "url()",
+          }
+        }
+      />
+    </div>
+    <div
+      className="c3"
+    />
+  </div>,
+  .c0 {
+  padding: 30px 20px 20px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.c1 {
+  font-size: 40px;
+}
+
+.c2 {
+  color: yellow;
+  font-size: 10px;
+}
+
+.c3 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 80px;
+}
+
+.c4 {
+  font-size: 10px;
+}
+
+.c5 {
+  color: white;
+  font-size: 20px;
+}
+
+.c6 {
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 80px;
+}
+
+.c7 {
+  font-size: 10px;
+}
+
+.c8 {
+  color: white;
+  font-size: 20px;
+}
+
+<div
+    className="c0"
+  >
+    <p
+      className="c1"
+    >
+      Megadeth
+    </p>
+    <p
+      className="c2"
+    >
+      On tour
+    </p>
+    <div
+      className=""
+    >
+      <div
+        className="c3"
+      >
+        <p
+          className="c4"
+        >
+          Listeners
+        </p>
+        <p
+          className="c5"
+        >
+          50,000
+        </p>
+      </div>
+      <div
+        className="c6"
+      >
+        <p
+          className="c7"
+        >
+          Times played
+        </p>
+        <p
+          className="c8"
+        >
+          120,000,000
+        </p>
+      </div>
+    </div>
+  </div>,
+]
+`;
